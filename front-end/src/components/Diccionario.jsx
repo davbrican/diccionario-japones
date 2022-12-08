@@ -35,7 +35,7 @@ const Diccionario = () => {
         <div>
             {palabra.length === 0 
             ? 
-            <button onClick={() => {buscar()}}> Cargar Diccionario </button> 
+            <button className="diccionario" onClick={() => {buscar()}}> Cargar Diccionario </button> 
             : 
             <table className='diccionario'>
                 <thead>

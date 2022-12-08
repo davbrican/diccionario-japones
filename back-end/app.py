@@ -1,11 +1,8 @@
-from datetime import datetime
-from distutils.log import debug
 from flask import Flask, jsonify, request
 from flask_cors import CORS, cross_origin
 from flask_cors.core import try_match
 from flask_mysqldb import MySQL
 import os
-import sys
 
 app = Flask(__name__)
 

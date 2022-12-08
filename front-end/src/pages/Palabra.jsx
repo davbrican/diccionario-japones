@@ -1,13 +1,16 @@
 import React from 'react';
+import Searcher from '../components/Searcher';
 import { useStateContext } from '../contexts/ContextProvider';
+import "../style/Diccionario.css";
 
 const Palabra = () => {
   
   const { palabra } = useStateContext();
 
   return (
-    <div className="Diccionario">
-        <table>
+    <div>
+        <Searcher />
+        <table className="diccionario">
             <thead>
                 <tr>
                     <th>Español</th>
