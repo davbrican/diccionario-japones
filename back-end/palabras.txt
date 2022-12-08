@@ -1,0 +1,83 @@
+Cabeza	あたま	Atama	Cuerpo
+Cara	かお	Kao	Cuerpo
+Ojo/s	め	Me	Cuerpo
+Nariz	はな	Hana	Cuerpo
+Oreja	みみ	Mimi	Cuerpo
+Boca	くち	Kuchi	Cuerpo
+Diente/s	は	Ha	Cuerpo
+Cuerpo	からだ	Karada	Cuerpo
+Mano/s	て	Te	Cuerpo
+Pierna/s, Pie/s	あし	Ashi	Cuerpo
+Vientre	おなか	Onaka	Cuerpo
+Cabello	かみ	Kami	Cuerpo
+Cuello	くび	Kubi	Cuerpo
+Garganta	のど	Nodo	Cuerpo
+Brazo/s	うで	Ude	Cuerpo
+Dedo/s	ゆび	Yubi	Cuerpo
+Espalda	せなか	Senaka	Cuerpo
+Abuelo	おじいさん	Ojiisan	Familia
+Abuela	おばあさん	Obaasan	Familia
+Tío	おじいさん	Ojisan	Familia
+Tía	おばあさん	Obasan	Familia
+Padre	おとうさん	Otousan	Familia
+Madre	おかあさん	Okaasan	Familia
+Hermano Mayor	おにいさん	Oniisan	Familia
+Hermana Mayor	おねえさん	Oneesan	Familia
+Hermano Menor	おとうと	Otouto	Familia
+Hermana Menor	いもうと	Imouto	Familia
+Primo/a	いとこ	Itoko	Familia
+Hijo/a	こども	Kodomo	Familia
+Nieto/a	まご	Mago	Familia
+Sobrino	おい	Oi	Familia
+Sobrina	めい	Mei	Familia
+Yo	わたし	Watashi	Familia
+Rojo	あか	Aka	Colores
+Blanco	しろ	Shiro	Colores
+Azul	あお	Ao	Colores
+Negro	くろ	Kuro	Colores
+Verde	みどり	Midori	Colores
+Morado	むらさき	Murasaki	Colores
+Azul claro	みずいろ	Mizuiro	Colores
+Amarillo	きいろ	Kiiro	Colores
+marrón	ちゃいろ	Chairo	Colores
+Gris	はいいろ	Haiiro	Colores
+Dorado	きんいろ	Kiniro	Colores
+Plateado	ぎにろ	Giniro	Colores
+Rosa	ぴんく	Pinku	Colores
+Naranja	おれんじ	Orenji	Colores
+Fresas	いちご	Ichigo	Comida
+Melocotón	もも	Momo	Comida
+Sandía	すいか	Suika	Comida
+Uvas	ぶどう	Budou	Comida
+Kaki	かき	Kaki	Comida
+Manzana	りんご	Ringo	Comida
+Plátano	ばなな	Banana	Comida
+Mandarina	みかん	Mikan	Comida
+Pepino	きゅうり	Kyuuri	Comida
+Tomate	とまと	Tomato	Comida
+Berenjena	なす	Nasu	Comida
+Espinaca	ほうれんす	Hourensou	Comida
+Patatas	じゃがいも	Jagaimo	Comida
+Cebolla	たまねぎ	Tamanegi	Comida
+Zanahoria	にじん	Ninjin	Comida
+Lechuga	れたす	Retasu	Comida
+Música	おんがく	Ongaku	Aficiones
+Karaoke	からおけ	Karaoke	Aficiones
+Película	えいが	Eiga	Aficiones
+Flamenco	ふらめんこ	Furamenko	Aficiones
+Natación	すいえい	Suiei	Aficiones
+Lectura	どくしょ	Dokusho	Aficiones
+Manga	まんが	Manga	Aficiones
+Matemáticas	すうがく	Suugaku	Aficiones
+Bicicleta	じてんしゃ	Jitensha	Aficiones
+Fútbol	サッカー	Sakka-	Aficiones
+Viaje	りょこう	Ryokou	Aficiones
+Compra	かいもの	Kaimono	Aficiones
+Arreglo floral	いけばな	Ikebana	Aficiones
+Corrida de toros	とうぎゅう	Tougyuu	Aficiones
+Juudou	じゅうどう	Juudou	Aficiones
+Fotografía	しゃしん	Shashin	Aficiones
+Dibujar	え	E	Aficiones
+Serie de televisión	どらま	Dorama	Aficiones
+Videojuegos	ヴぃでおがめ	Videogame	Aficiones
+Caminar	さんぽ	Sanpo	Aficiones
