@@ -39,16 +39,12 @@ body {
   padding: 0 16px;
   color: #161616;
   transition: background-color 70ms cubic-bezier(.2,0,.38,.9),outline 70ms cubic-bezier(.2,0,.38,.9); 
-  position: absolute;
-  right: 50px; 
+  margin-left: 50px;
 }
 #inputBar:focus{
     outline: 2px solid #0f62fe;
     outline-offset: -2px;
 }
-
-
-
 
 #searchButton {
   width: 35px;
@@ -56,7 +52,6 @@ body {
   border: none;
   position: absolute;
   top: 12px;
-  right: 10px;
   background-color: inherit;
 }
 #searchButton:hover {
@@ -71,4 +66,20 @@ body {
   top: 12px;
   left: 10px;
   background-color: inherit;
+}
+#homeButton:hover {
+    cursor: pointer;
+}
+
+#addButton {
+  width: 35px;
+  height: 35px;
+  border: none;
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  background-color: inherit;
+}
+#addButton:hover {
+    cursor: pointer;
 }

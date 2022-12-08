@@ -67,7 +67,7 @@ def getPalabrasCategoria(categoria):
 @app.route('/buscarPalabra/<string:palabra>', methods=['GET'])
 def buscarPalabra(palabra):
     cur = mysql.connection.cursor()
-    cur.execute(f"SELECT * FROM palabras WHERE español = '{palabra}'")
+    cur.execute(f"SELECT * FROM palabras WHERE español LIKE '%{palabra}%' OR hiragana LIKE '%{palabra}%' OR romaji LIKE '%{palabra}%'")
     data = cur.fetchall()
     res = []
     for i in data:

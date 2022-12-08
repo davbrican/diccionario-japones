@@ -31,6 +31,16 @@ const Diccionario = () => {
         setPalabra([...palabras]);
     }
 
+    function buscarPorCategoria(categoria) {
+        axios.get(`http://127.0.0.1:5000/palabrasPorCategoria/${categoria}`)
+        .then(response => {
+            setPalabra(response.data);
+        })
+        .catch(error =>{
+            console.log(error);
+        });
+    }
+
     return (
         <div>
             {palabra.length === 0 
@@ -52,7 +62,7 @@ const Diccionario = () => {
                             <td>{palabra.español}</td>
                             <td>{palabra.hiragana}</td>
                             <td>{palabra.romaji}</td>
-                            <td>{palabra.categoria}</td>
+                            <td><a id='categoryButton' onClick={() => {buscarPorCategoria(palabra.categoria)}}>{palabra.categoria}</a></td>
                         </tr>
                     ))}
                 </tbody>
