@@ -16,7 +16,7 @@ const Insert = () => {
         if (formulario.español === '' || formulario.japones === '' || formulario.romaji === '' || formulario.categoria === '') {
             alert('Debes rellenar todos los campos');
         } else {
-            axios.post('http://127.0.0.1:5000/insertarPalabra', {
+            axios.post(`${process.env.REACT_APP_BACK_URL}insertarPalabra`, {
                 español: formulario.español,
                 hiragana: formulario.japones,
                 romaji: formulario.romaji,

@@ -8,7 +8,7 @@ const Diccionario = () => {
     const { palabra, setPalabra } = useStateContext();
 
     function buscar() {
-        axios.get(`http://127.0.0.1:5000/palabras`)
+        axios.get(`${process.env.REACT_APP_BACK_URL}palabras`)
         .then(response => {
             setPalabra(response.data);
         })
@@ -32,7 +32,7 @@ const Diccionario = () => {
     }
 
     function buscarPorCategoria(categoria) {
-        axios.get(`http://127.0.0.1:5000/palabrasPorCategoria/${categoria}`)
+        axios.get(`${process.env.REACT_APP_BACK_URL}palabrasPorCategoria/${categoria}`)
         .then(response => {
             setPalabra(response.data);
         })

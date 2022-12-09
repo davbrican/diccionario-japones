@@ -8,7 +8,7 @@ const Searcher = () => {
     const { busqueda, setBusqueda, setPalabra } = useStateContext();
 
     const buscarPalabra = (busqueda) => {
-        axios.get(`http://127.0.0.1:5000/buscarPalabra/${busqueda}`)
+        axios.get(`${process.env.REACT_APP_BACK_URL}buscarPalabra/${busqueda}`)
         .then(response => {
             setPalabra(response.data);
         })
